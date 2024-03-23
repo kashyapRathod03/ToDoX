@@ -10,7 +10,7 @@ const path = require('path');
 
 
 app.use(cors({
-    origin:["http://localhost:3000","https://conversa-backend-tymi.onrender.com"],
+    origin:["http://localhost:3000","https://todox-icgv.onrender.com"],
     credentials: true,
     // origin: process.env.CLIENT_URL,
   }));
